@@ -223,7 +223,7 @@ const Form = () => {
     // API call or logic to save the form data
     setLoading(true); // Set loading to true before API call
     // API call to save the form data
-    await fetch("http://localhost:3000/generate-resume", {
+    await fetch("https://resume-builder-backend-2ncx.onrender.com/generate-resume", {
       method: "POST",
       headers: {
       "Content-Type": "application/json",
