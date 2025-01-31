@@ -1,0 +1,61 @@
+{
+  "personalDetails": {
+    "name": "Subhashini K",
+    "phone": "9362019190",
+    "email": "subhashini.k2023cse@sece.ac.in",
+    "linkedinurl": "subha",
+    "linkedin": "Subhasini K",
+    "githuburl": "sjubha",
+    "github": "Subhashini-K"
+  },
+  "education": {
+    "degree": "CSE",
+    "cgpa": "DSC",
+    "studyYear": "dfs",
+    "hscSchool": "adf",
+    "hscPercentage": "kd,mc",
+    "hscYear": "dfsd",
+    "sslcSchool": "dfddfs",
+    "sslcPercentage": "sfc",
+    "sslcYear": "adf"
+  },
+  "projects": [
+    {
+      "name": "trgvtty",
+      "github": "hgh",
+      "tech": "trty",
+      "completion": "rtyg",
+      "description": "ersfvffg",
+      "tools": "fv"
+    }
+  ],
+  "skills": {
+    "languages": "dfvdfg",
+    "frameworks": "g",
+    "tools": "fg",
+    "coreConcepts": "rg",
+    "database": "ts",
+    "softSkills": "sg"
+  },
+  "achievements": {
+    "leetcoderating": "td",
+    "leetcodeprofileLink": "gfgh",
+    "leetcodemaxRating": "hjh",
+    "achievements": [
+      {
+        "name": "ke",
+        "year": "ef",
+        "description": "adf",
+        "image": "adfadf"
+      }
+    ]
+  },
+  "certifications": [
+    {
+      "courseName": "d",
+      "certificateLink": "f",
+      "provider": "g",
+      "completionDate": "d"
+    }
+  ]
+}

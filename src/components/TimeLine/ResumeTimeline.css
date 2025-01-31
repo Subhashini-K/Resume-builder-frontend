@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.stepper-container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Step Number Styling */
+.step-number {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  
+  /* Smooth Transition */
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Active Step */
+.active {
+  background-color: gold;
+  /* transform: scale(1.2);  */
+}
+
+/* Step Line */
+.step-line {
+  height: 2.5rem;
+  width: 2px;
+  background-color: gray;
+  position: absolute;
+  top: 2.5rem;
+  
+  /* Smooth Width Transition */
+  transition: background-color 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+
+/* Active Step Line */
+.active-line {
+  background-color: gold;
+  width: 4px;
+}
+
+/* Step Label Styling */
+.step-label {
+  color: #ffffff;
+  /* opacity: 0.5; */
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Active Label */
+.active-label {
+  opacity: 1;
+  font-weight: bold;
+}

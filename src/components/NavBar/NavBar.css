@@ -1,0 +1,35 @@
+.nav {
+  background-color: #080808;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(38,38,38); 
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+.navContainer {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: large;
+  padding-right: 50px;
+}
+
+.navContainer p {
+  color: #fff;
+  cursor: pointer;
+  /* background-color: #ff004f; */
+  border-radius: 15px;
+  padding:10px;
+  /* border:1px solid #ff004f ; */
+}
+.navContainer p:hover{
+    background-color: #ff004f;
+    transition: ease-in-out 0.2s;
+    scale: 1.05;
+}
+
+

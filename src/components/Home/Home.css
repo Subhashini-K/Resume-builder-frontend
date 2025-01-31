@@ -1,0 +1,55 @@
+.text {
+  color: #fff;
+  font-family: "Calligraffitti", serif;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 60px; */
+}
+.wrap {
+  display: flex;
+  /* height:100%; */
+}
+.text {
+  width: 50%;
+  /* height: fit-content; */
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  font-size: xx-large;
+  padding-left: 100px;
+}
+.sprite {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sprite img {
+  padding-top: 50px;
+  height: 500px;
+}
+.button p {
+  color: #fff;
+  cursor: pointer;
+  background-color: #ff004f;
+  width: fit-content;
+  border-radius: 40px;
+  padding: 20px;
+  font-size: x-large;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
+    25px 0 20px -20px rgba(0, 0, 0, 0.45),
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+    -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+  /* border:1px solid #ff004f ; */
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+}
+.button p:hover{
+    scale: 1.05;
+    transition: ease-in-out 0.2s;
+}
